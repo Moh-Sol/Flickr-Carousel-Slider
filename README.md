@@ -9,9 +9,10 @@
 3- app.css
 
 ---------------------------
-###  start/change kod
+###  En direkt länk
 
-Ni kan titta direkt på resultat genom den här länken
+Ni kan titta direkt på resultat genom den här länken:
+
 https://flickr-carousel.herokuapp.com/
 
 ---------------------------

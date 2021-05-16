@@ -65,7 +65,7 @@ function App() {
     fetch(url).then(function (responsiv) {
       return responsiv.json(url);
     }).then(function (data) {
-      console.log(data)
+      // console.log(data)
       let PhotoServer, PhotoId, PhotoSecret, PhotoSize, photoLink;
       for (let i = 1; i <= 12; i++) {
         PhotoServer = data.photos.photo[i].server;
