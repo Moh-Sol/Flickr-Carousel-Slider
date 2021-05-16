@@ -1,38 +1,105 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(121, 175, 192);
+}
+
+.slideshow-container {
+  color: rgb(231, 234, 240);
   text-align: center;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-tilte {
+  margin: 50px 0;
+  line-height: 150px;
+  font-size: 45px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+section {
+  margin: 0 auto;
+  width: 1550px;
+}
+
+.slide-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.img-class {
+  width: 250px;
+  height: 250px;
+}
+
+.describe-text {
+  width: 250px;
+  font-size: 18px;
+  text-align: center;
+  background-color: rgba(22, 22, 24, 0.5);
+  position: absolute;
+  bottom: 10px;
+}
+
+@media only screen and (max-width: 1700px) {
+  section {
+    width: 1280px;
+  }
+  .img-class {
+    width: 205px;
+    height: 180px;
+  }
+  .describe-text {
+    width: 205px;
+    font-size: 16px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 1400px) {
+  section {
+    width: 950px;
   }
-  to {
-    transform: rotate(360deg);
+  .img-class {
+    width: 150px;
+    height: 150px;
+  }
+  .describe-text {
+    width: 150px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  section {
+    width: 625px;
+  }
+  .img-class {
+    width: 150px;
+    height: 150px;
+  }
+  .describe-text {
+    width: 150px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  section {
+    width: 315px;
+  }
+  .img-class {
+    width: 150px;
+    height: 150px;
+  }
+  .describe-text {
+    width: 150px;
+    font-size: 13px;
   }
 }
