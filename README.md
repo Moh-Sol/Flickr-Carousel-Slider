@@ -1,12 +1,12 @@
 
 
-## Min kod ligger i de tre filerna 
+###  Min kod ligger i de tre filerna 
 
-1- App.js
+1- /src/App.js
 
-2- /componenet/imageItem
+2- /src/componenet/imageItem
 
-3- app.css
+3- /src/app.css
 
 ---------------------------
 ###  En direkt länk
@@ -17,18 +17,16 @@ https://flickr-carousel.herokuapp.com/
 
 ---------------------------
 
-###  start/change kod
+###  ٍٍför att Starta/ändra koden
 
--För att kunna ändra i koden och få den funkar du behöver skriva bara:
+-För att kunna ändra i koden och få den funkar behöver du skriva i terminalen:
 
-npm i
+npm install
 
-i terminalen.
--Och för att kunna köra koden i local server du skriver bara: 
+
+-Och för att kunna köra koden i localhost skriver du i terminalen: 
+
 npm start 
-
-i terminalen.
 
 Obs. Se till att du har node installerat i din dator: 
 https://nodejs.org/en/download/
- */
